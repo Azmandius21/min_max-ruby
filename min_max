@@ -1,0 +1,6 @@
+def solution(statues)
+    mm = statues.minmax      
+    addStatues= Array.new(mm[1]-mm[0]){|x| x + mm[0]} 
+    addStatues = addStatues - statues
+    number = addStatues.length      
+end
